@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Market-Project-ASP-NET-MVC", "E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC.csproj", "{9F354131-001E-47F1-87BD-AACF0921B940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F354131-001E-47F1-87BD-AACF0921B940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F354131-001E-47F1-87BD-AACF0921B940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F354131-001E-47F1-87BD-AACF0921B940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F354131-001E-47F1-87BD-AACF0921B940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852AB6CA-6C4B-4395-A854-747F906AFA8B}
+	EndGlobalSection
+EndGlobal
