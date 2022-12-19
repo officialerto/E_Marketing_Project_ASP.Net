@@ -69,6 +69,7 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
 
             return View();
         }
+
         public ActionResult ViewCategory(int? page)
         {
             int pagesize = 9, pageindex = 1;
@@ -78,6 +79,7 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
 
             return View(stu);
         }
+
 
         public string uploadingfile(HttpPostedFileBase file)
         {
