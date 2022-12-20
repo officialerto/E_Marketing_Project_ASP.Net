@@ -1,4 +1,4 @@
-﻿@model E_Market_Project_ASP_NET_MVC.Models.tbl_category
+﻿@model E_Market_Project_ASP_NET_MVC.Models.tbl_user
 
 @{
     Layout = null;
@@ -45,19 +45,52 @@
 
 <div id="main-div">
     <div id="box" class="img-responsive">
-        @using (@Html.BeginForm("Create", "Admin", FormMethod.Post, new { enctype="multipart/form-data"}))
+        @using (@Html.BeginForm("SignUp", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
         {
         <div class="insidebox">
-            <div> <h1>Add Category</h1></div>
+            <div> <h1>User Signup</h1></div>
 
             <div class="form-group">
 
                 <div class="input-group">
-                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>                    
-                    @Html.TextBoxFor(x => x.cat_name, new { @class = "form-control", @placeholder = "Category Name" })
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                    @Html.TextBoxFor(x => x.u_name, new { @class = "form-control", @placeholder = "User Name" })
                 </div>
 
-                <span style="color:red">   @Html.ValidationMessageFor(x => x.cat_name) </span>
+                <span style="color:red">   @Html.ValidationMessageFor(x => x.u_name) </span>
+
+            </div>
+
+            <div class="form-group">
+
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                    @Html.TextBoxFor(x => x.u_email, new { @class = "form-control", @placeholder = "Email" })
+                </div>
+
+                <span style="color:red">   @Html.ValidationMessageFor(x => x.u_email) </span>
+
+            </div>
+
+            <div class="form-group">
+
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                    @Html.PasswordFor(x => x.u_password, new { @class = "form-control", @placeholder = "Password" })
+                </div>
+
+                <span style="color:red">   @Html.ValidationMessageFor(x => x.u_password) </span>
+
+            </div>
+
+            <div class="form-group">
+
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                    @Html.TextBoxFor(x => x.u_contact, new { @class = "form-control", @placeholder = "Phone" })
+                </div>
+
+                <span style="color:red">   @Html.ValidationMessageFor(x => x.u_contact) </span>
 
             </div>
 
