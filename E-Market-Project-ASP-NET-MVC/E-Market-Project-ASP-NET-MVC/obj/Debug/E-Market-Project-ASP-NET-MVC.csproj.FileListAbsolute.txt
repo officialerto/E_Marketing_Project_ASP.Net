@@ -56,3 +56,7 @@ C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP
 C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\obj\Debug\E-Market-Project-ASP-NET-MVC.csproj.CopyComplete
 C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\obj\Debug\E-Market-Project-ASP-NET-MVC.dll
 C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\obj\Debug\E-Market-Project-ASP-NET-MVC.pdb
+C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\bin\PagedList.dll
+C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\bin\PagedList.Mvc.dll
+C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\bin\PagedList.xml
+C:\Users\Ertugrul\source\repos\E-Market-Project-ASP-NET-MVC\E-Market-Project-ASP-NET-MVC\bin\PagedList.Mvc.xml

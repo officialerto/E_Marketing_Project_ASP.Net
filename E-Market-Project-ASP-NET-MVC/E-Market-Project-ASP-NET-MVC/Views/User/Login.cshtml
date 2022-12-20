@@ -1,4 +1,4 @@
-﻿@model E_Market_Project_ASP_NET_MVC.Models.tbl_admin
+﻿@model E_Market_Project_ASP_NET_MVC.Models.tbl_user
 
 @{
     Layout = null;
@@ -57,20 +57,20 @@
                     <div class="input-group">
                         <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
                         @*<asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="Username" required="required"></asp:TextBox>*@
-                        @Html.TextBoxFor(x => x.ad_username, new { @class = "form-control", @placeholder = "Username" })
+                        @Html.TextBoxFor(x => x.u_email, new { @class = "form-control", @placeholder = "Email" })
 
                     </div>
-                    <span style="color:red">   @Html.ValidationMessageFor(x => x.ad_username) </span>
+                    <span style="color:red">   @Html.ValidationMessageFor(x => x.u_email) </span>
 
                 </div>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
                         @*<asp:TextBox ID="txtpassword" runat="server" class="form-control" placeholder="Password" TextMode="Password" required="required"></asp:TextBox>*@
-                        @Html.PasswordFor(x => x.ad_password, new { @class = "form-control", @placeholder = "Password" })
+                        @Html.PasswordFor(x => x.u_password, new { @class = "form-control", @placeholder = "Password" })
 
                     </div>
-                    <span style="color:red">   @Html.ValidationMessageFor(x => x.ad_password) </span>
+                    <span style="color:red">   @Html.ValidationMessageFor(x => x.u_password) </span>
                 </div>
 
 

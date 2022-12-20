@@ -12,20 +12,12 @@ namespace E_Market_Project_ASP_NET_MVC.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class tbl_category
+    public partial class sysdiagrams
     {
-        public tbl_category()
-        {
-            this.tbl_product = new HashSet<tbl_product>();
-        }
-    
-        public int cat_id { get; set; }
-        public string cat_name { get; set; }
-        public string cat_image { get; set; }
-        public Nullable<int> cat_fk_ad { get; set; }
-        public Nullable<int> cat_status { get; set; }
-    
-        public virtual tbl_admin tbl_admin { get; set; }
-        public virtual ICollection<tbl_product> tbl_product { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

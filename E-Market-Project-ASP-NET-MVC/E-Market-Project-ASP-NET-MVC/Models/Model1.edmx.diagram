@@ -12,6 +12,7 @@
         <AssociationConnector Association="dbemarketingModel.FK__tbl_categ__cat_f__145C0A3F" ManuallyRouted="false" />
         <AssociationConnector Association="dbemarketingModel.FK__tbl_produ__pro_f__239E4DCF" ManuallyRouted="false" />
         <AssociationConnector Association="dbemarketingModel.FK__tbl_produ__pro_f__24927208" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbemarketingModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="5.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

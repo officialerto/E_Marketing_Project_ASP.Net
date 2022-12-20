@@ -29,5 +29,6 @@ namespace E_Market_Project_ASP_NET_MVC.Models
         public DbSet<tbl_category> tbl_category { get; set; }
         public DbSet<tbl_product> tbl_product { get; set; }
         public DbSet<tbl_user> tbl_user { get; set; }
+        public DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }
