@@ -89,7 +89,6 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
                 {
                     try
                     {
-
                         path = Path.Combine(Server.MapPath("~/Content/upload"), random + Path.GetFileName(file.FileName));
                         file.SaveAs(path);
                         path = "~/Content/upload/" + random + Path.GetFileName(file.FileName);
@@ -112,7 +111,6 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
                 Response.Write("<script>alert('Please select a file'); </script>");
                 path = "-1";
             }
-
 
 
             return path;

@@ -93,7 +93,6 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
                 {
                     try
                     {
-
                         path = Path.Combine(Server.MapPath("~/Content/upload"), random + Path.GetFileName(file.FileName));
                         file.SaveAs(path);
                         path = "~/Content/upload/" + random + Path.GetFileName(file.FileName);
@@ -105,6 +104,7 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
                         path = "-1";
                     }
                 }
+
                 else
                 {
                     Response.Write("<script>alert('Only jpg ,jpeg or png formats are acceptable....'); </script>");
@@ -117,9 +117,8 @@ namespace E_Market_Project_ASP_NET_MVC.Controllers
                 path = "-1";
             }
 
-
-
             return path;
+
         }
     }
 
